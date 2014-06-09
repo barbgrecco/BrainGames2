@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"    
+	 >
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:id="@+id/layout1"
+	    >	        
+	<TextView
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="0.11"
+	    android:gravity="center_horizontal"
+	    android:text="YOUR GAME RESULT"
+	    android:textSize="25sp"
+	    android:textStyle="bold" />
+</LinearLayout>
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_below="@id/layout1"
+	    android:id="@+id/layout2"
+	    >	    
+	<TextView 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="35dp"
+	    android:gravity="right"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Accuracy: "     
+        android:layout_weight="1"  
+        android:paddingRight="3dp"     
+	 />	
+	<TextView 
+	    android:id="@+id/accuracy"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="35dp"	    
+	    android:gravity="left"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_weight="1"
+        android:textColor="#ff0000ff"
+        android:text="100%"
+        android:paddingLeft="3dp"             
+	 />		 
+	</LinearLayout>
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_below="@id/layout2"
+	    android:id="@+id/layout3"
+	    
+	    >
+	<TextView 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="right"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Total Correct: "     
+        android:layout_weight="1"       
+	    android:layout_marginTop="10dp"	         
+	 	/>	
+	<TextView 
+	    android:id="@+id/totalcorrect"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="left"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_weight="1"
+        android:textColor="#ff0000ff"
+        android:text="30/30"
+	    android:layout_marginTop="10dp"	   
+        />		 
+	</LinearLayout>	
+
+	<Button
+	    android:id="@+id/backtostart"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentLeft="true"
+	    android:text="Back To Start" />
+
+	<Button
+	    android:id="@+id/tryagain"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentRight="true"
+	    android:layout_alignTop="@+id/backtostart"
+	    android:text="Try Again" />
+	
+</RelativeLayout>

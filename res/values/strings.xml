@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BrainGames2</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome">Welcome to Brain Games!</string>
+    <string name="title_activity_MemoryMaze">Memory Maze Activity</string>
+    <string name="title_activity_ColorMatch">Color Match Activity</string>
+    <string name="title_activity_colorprogress">Color Match Activity Progess</string>
+    <string name="start">Start now!</string>
+    <string name="success">Success!</string>
+    <string name="error">Error!</string>
+    <string name="begin">Begin Test</string>
+    <string name="playnext">Play Next</string>
+    <string name="tryagain">Try Again</string>
+    <string name="progress">My Progress</string>
+    <string name="level1">Level 1</string>
+    <string name="level2">Level 2</string>
+    <string name="level3">Level 3</string>
+    <string name="numbersquares3">3 Test Squares</string>
+    <string name="numbersquares4">4 Test Squares</string>
+    <string name="numbersquares5">5 Test Squares</string>
+    <string name="numbersquares6">6 Test Squares</string>
+    <string name="numbersquares7">7 Test Squares</string>
+    <string name="activity11">activity11</string>
+    <string name="activity12">activity12</string>
+    <string name="activity13">activity13</string>
+    <string name="activity21">activity21</string>
+    <string name="activity22">activity22</string>
+    <string name="activity23">activity23</string>
+    <string name="activity31">activity31</string>
+    <string name="activity32">activity32</string>
+    <string name="activity33">activity33</string>
+    <string name="failed">Failed = 22</string>
+    <string name="passed">Passed = 22</string>
+    <string name="clearall">Clear All Data</string>
+    <string name="levelcomplete">Level Complete!</string>
+    <string name="title_activity_progress">ProgressActivity</string>
+    <string name="letsgo">Let the Games Start!</string>
+    <string name="meaning">Meaning:</string>
+    <string name="color">Color:</string>
+    <string name="nomatch">Not a match</string>
+    <string name="match">Match</string>
+    <string name="score">Score</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="remembernumber">Remember the number must be even</string>
+    <string name="rememberletter">Remember the letter must be a vowel</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="playmemorymaze">Play Memory Maze</string>
+    <string name="playcolormatch">Play Color Match</string>
+    <string name="time">Time: </string>
+    <string name="score2">Score: </string>
+
+</resources>
